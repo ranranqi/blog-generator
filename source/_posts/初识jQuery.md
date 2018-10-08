@@ -8,9 +8,10 @@ jQuery 就是一个 JavaScript 库，封装了JavaScript，能够简化我们写
 1、jQuery到本地引入（这种方法要求本地有jquery.js）
 我们可以在[jQuery官网](http://jquery.com/download/)下载开发版本地引入：
 ```
-<head> 
-<script src="jquery.js"></script>> </script>
-</head>
+<script src="jquery.js"></script>
+<script> 
+jQuery
+</script>
 ```
 ![](初识jQuery/2.png)
 官网这三个地址有的区别：
@@ -18,14 +19,15 @@ jQuery 就是一个 JavaScript 库，封装了JavaScript，能够简化我们写
 第二个用于测试和开发，未压缩是可读 的代码；
 第三个是jQuery映射文件。
 
-2、通过bootCDN引入
-在bootCDN上复制标签引入
+2、通过cdnjs引入
+在cdnjs上复制标签引入
 ![](初识jQuery/1.png)
 在head标签中加入下列代码：
 ```
-<head> 
-<scriptsrc="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script></script> 
-</head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+jQuery
+</script>
 ```
 
 ## 使用 jQuery
